@@ -7,4 +7,6 @@ Team participants: Diana Dmytrashko, Andrii Vedilin
 
 ## Reddit data processing
 
-The project is designed to process and analyze subreddits. Project has 3 functions: 1 http to event hub, 2 processing data from event hub via text alalytics api to detect language, 3 processing data from event hub via text alalytics api to find key words.
+The project is designed to process and analyze subreddits. Project has 3 functions: 1 http to event hub, 2 processing data from event hub via text analytics api to detect language, 3 processing data from event hub via text analytics api to find key words.
+
+Data from reddit executes via script that reads .csv file and sends POST Http requests every minute to azure function.
